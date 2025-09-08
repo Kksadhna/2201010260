@@ -428,7 +428,7 @@ function App() {
       <MuiTypography variant="h4">URL Shortener Page</MuiTypography>
       {urls.map((url, index) => (
         <MuiCard key={index}>
-          <MuiTypography variant="h5">URL #{index + 1}</MuiTypography>
+          <MuiTypography variant="h5">URL {index + 1}</MuiTypography>
           <MuiTextField
             label="Original URL"
             type="text"
